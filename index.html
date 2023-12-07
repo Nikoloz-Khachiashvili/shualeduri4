@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-logo"><img src="./Assets/todo.svg" alt="logo"></div>
+        <div class="moon"><img src="./Assets/moon.svg" alt=""></div>
+        <div class="sun"><img src="./Assets/sun.svg" alt=""></div>
+    </header>
+
+    <div class="back">
+        <img class="light-back-mob" src="./Assets/light-back-mob.svg" alt="">
+        <img class="dark-back-mob" src="./Assets/dark-back-mob.svg" alt="">
+
+    </div>
+
+
+    <div class="add-todo">
+        <form>
+            <input type="text" placeholder="Create a new todo..." class="todo-add-text">
+        </form>
+    </div>
+
+    <main>
+        <div class="first-todo todo-item" draggable="true">
+            <div class="unclicked unclicked-1">
+                <img src="./Assets/unclicked.svg" alt="">
+            </div>
+            <div class="unclicked unclicked-1-dark">
+                <img src="./Assets/unclicked-dark.svg" alt="">
+            </div>
+            <div class="first-todo-text">Complete online JavaScript course</div>
+            <img class="cancel" src="./Assets/cancel.svg" alt="">
+        </div>
+
+        <div class="second-todo todo-item" draggable="true">
+            <div class="unclicked unclicked-2">
+                <img src="./Assets/unclicked.svg" alt="">
+            </div>
+            <div class="unclicked unclicked-2-dark"><img src="./Assets/unclicked-dark.svg" alt=""></div>
+            <div class="second-todo-text">Jog around the park 3x</div>
+            <img class="cancel" src="./Assets/cancel.svg" alt="">
+        </div>
+
+        <div class="third-todo todo-item" draggable="true">
+            <div class="unclicked unclicked-3">
+                <img src="./Assets/unclicked.svg" alt="">
+            </div>
+            <div class="unclicked unclicked-3-dark"><img src="./Assets/unclicked-dark.svg" alt=""></div>
+            <div class="third-todo-text">10 minutes meditation</div>
+            <img class="cancel" src="./Assets/cancel.svg" alt="">
+        </div>
+
+        <div class="fourth-todo todo-item" draggable="true">
+            <div class="unclicked unclicked-4">
+                <img src="./Assets/unclicked.svg" alt="">
+            </div>
+            <div class="unclicked unclicked-4-dark"><img src="./Assets/unclicked-dark.svg" alt=""></div>
+            <div class="fourth-todo-text">Read for 1 hour</div>
+            <img class="cancel" src="./Assets/cancel.svg" alt="">
+        </div>
+
+        <div class="fifth-todo todo-item" draggable="true">
+            <div class="unclicked unclicked-5">
+                <img src="./Assets/unclicked.svg" alt="">
+            </div>
+            <div class="unclicked unclicked-5-dark"><img src="./Assets/unclicked-dark.svg" alt=""></div>
+            <div class="fifth-todo-text">Pick up groceries</div>
+            <img class="cancel" src="./Assets/cancel.svg" alt="">
+        </div>
+
+        <div class="sixth-todo todo-item" draggable="true">
+            <div class="unclicked unclicked-6">
+                <img src="./Assets/unclicked.svg" alt="">
+            </div>
+            <div class="unclicked unclicked-6-dark"><img src="./Assets/unclicked-dark.svg" alt=""></div>
+            <div class="sixth-todo-text">Complete Todo App on Frontend Mentor</div>
+            <img class="cancel" src="./Assets/cancel.svg" alt="">
+        </div>
+
+
+    </main>
+
+    <div class="tools">
+        <div class="left-todo"><span>5</span> items left</div>
+        <div class="clear-completed">Clear completed</div>
+    </div>
+
+
+
+
+    <div class="departments">
+        <div class="all">All</div>
+        <div class="active">Active</div>
+        <div class="completed">Completed</div>
+    </div>
+
+    <footer>
+        <div class="footer-text">Drag and drop to reorder list</div>
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
