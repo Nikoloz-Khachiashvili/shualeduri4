@@ -213,7 +213,7 @@ function handleDepartmentClick(department) {
     }
 }
 
-// Add click event listeners to department elements
+
 document.querySelector('.all').addEventListener('click', function () {
     handleDepartmentClick('all');
 });
@@ -416,7 +416,7 @@ document.querySelector('.clear-completed').addEventListener('click', function ()
         completedTodo.parentNode.removeChild(completedTodo);
     });
 
-    // Update the left todo count and save todos
+
     updateLeftTodoCount();
 });
 
